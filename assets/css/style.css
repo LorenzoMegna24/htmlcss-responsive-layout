@@ -35,7 +35,15 @@
   display: inline-block;
   border-radius: 25px;
   color: white;
-  }
+}
+.btn-purple{
+  background-color: rgb(151,146,228);
+  display: inline-block;
+  padding: 10px 14px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
 
 /* header */
 nav{
@@ -82,4 +90,32 @@ nav{
 .card-head-5{
   text-align: center;
   padding: 20px 35px;
+}
+
+
+/* main */
+/* section 1 */
+.section-1 img{
+  width: 100%;
+}
+.section-1{
+  background-color: rgb(151,146,228);
+  color: white;
+  padding: 60px 0;
+}
+.section-1 p{
+  font-size: 20px;
+}
+.section-1 h2{
+  font-size: 40px;
+}
+.section-1 h3{
+  font-size: 30px;
+}
+.card-white{
+  background-color: white;
+  color: black;
+  padding: 30px 40px;
+  text-align: center;
+  border-radius: 50px; 
 }
