@@ -327,12 +327,13 @@ footer p{
   .testimonial-3{
     flex-direction: row;
   }
-  /* .box-img{
-    flex-basis: 20%;
+  .box-img{
+    flex-basis: calc(100% / 2 );
+    margin-bottom: 0;
   }
   .testimonianza{
-    flex-basis: 80%;
-  } */
+    flex-basis: calc(100% / 2 );
+  }
   .benefits-container{
     justify-content: space-between;
   }
