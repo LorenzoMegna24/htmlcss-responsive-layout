@@ -310,18 +310,17 @@ footer p{
   }
   .header-container{
     justify-content: space-between;
-    width: 100%;
   }
   .card-head-2,
   .card-head-3,
   .card-head-4,
   .card-head-5{
-    flex: 1 1;
-    flex-basis: calc(100% / 3 - 10px);
+    flex-basis: calc(100% / 3 - 1%);
+    padding: 1rem;
   }
   .card-head-1{
-    flex: 1 1;
-    flex-basis: calc((100% / 3) * 2 - 10px);
+    flex-basis: calc((100% / 3) * 2 - 1%);
+    padding: 1rem;
   }
   .testimonial-1,
   .testimonial-2,
