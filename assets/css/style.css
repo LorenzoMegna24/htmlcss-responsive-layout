@@ -13,14 +13,73 @@
 .align-center{
   align-items: center;
 }
-
+.justify-center{
+  justify-content: center;
+}
+.wrap{
+  flex-wrap: wrap;
+}
+.col-80{
+  margin: 0 auto;
+  width: 80%;
+}
+.mb-50{
+  margin-bottom: 50px;
+}
+.mb-30{
+  margin-bottom: 30px;
+}
+.btn-blue{
+  background-color: rgb(0,132,253);
+  padding: 10px 35px ;
+  display: inline-block;
+  border-radius: 25px;
+  color: white;
+  }
 
 /* header */
 nav{
-  background-color: rgba(0,132,253,255);
+  background-color: rgb(0,132,253);
   padding: 10px 20px;
 }
 .links{
   color: white;
   font-size: 25px;
+}
+.header-container h2{
+  color: rgb(0,132,253);
+  font-size: 30px;
+}
+.header-container p{
+  font-size: 19px;
+  color: rgb(90,110,127);
+}
+.card-head-1,
+.card-head-2,
+.card-head-3,
+.card-head-4,
+.card-head-5{
+  background-color: rgb(181,221,255);
+  border-radius: 20px;
+  flex-basis: 100%;
+}
+.card-head-2 i,
+.card-head-3 i,
+.card-head-4 i,
+.card-head-5 i{
+  font-size: 100px;
+  color: rgb(0,132,253);
+}
+.card-head-1{
+  padding: 30px 30px 0px 30px;
+}
+.card-head-1 img{
+  width: 100%;
+}
+.card-head-2,
+.card-head-3,
+.card-head-4,
+.card-head-5{
+  text-align: center;
+  padding: 20px 35px;
 }
