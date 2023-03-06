@@ -11,7 +11,11 @@ p{
   letter-spacing: 1px;
   line-height: 2.3;
 }
-
+.btn-blue a,
+.btn-purple a,
+.btn-white a{
+  text-decoration: none;
+}
 /* utility */
 .absolute{
   position: absolute;
@@ -52,6 +56,8 @@ p{
   padding: 10px 35px ;
   display: inline-block;
   border-radius: 25px;
+}
+.btn-blue a{
   color: white;
 }
 .btn-purple{
@@ -192,8 +198,10 @@ nav{
 .benefit-card .btn-purple{
   padding-left: 30px;
   padding-right: 30px;
-  color: white;
   font-weight: 700;
+}
+.benefit-card .btn-purple a{
+  color: white;
 }
 
 /* section 4 */
@@ -227,11 +235,14 @@ nav{
 .box-img-aboutus .btn-purple{
   padding-left: 30px;
   padding-right: 30px;
-  color: white;
   font-weight: 700;
+}
+.box-img-aboutus .btn-purple a{
+  color: white;
 }
 .box-img-aboutus .btn-purple i{
   margin-right: 5px;
+  color: white;
 }
 
 
@@ -266,4 +277,20 @@ nav{
   color: rgb(194, 190, 249);
   font-weight: 700;
   border-radius: 50px;
+}
+.btn-white a{
+  color: rgb(194, 190, 249);
+}
+
+
+/* footer */
+footer{
+  background-color: rgb(51,51,51);
+  text-align: center;
+  padding: 50px 0;
+}
+footer p{
+  font-size: 15px;
+  color: white;
+  line-height: 1.5;
 }
