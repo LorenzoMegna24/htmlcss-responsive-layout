@@ -3,9 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: 'Roboto', sans-serif;
+}
+p{
+  font-size: 20px;
+}
+
 /* utility */
 .flex{
   display: flex;
+}
+.column{
+  flex-direction: column;
 }
 .space-between{
   justify-content: space-between;
@@ -59,7 +69,6 @@ nav{
   font-size: 30px;
 }
 .header-container p{
-  font-size: 19px;
   color: rgb(90,110,127);
 }
 .card-head-1,
@@ -103,9 +112,6 @@ nav{
   color: white;
   padding: 60px 0;
 }
-.section-1 p{
-  font-size: 20px;
-}
 .section-1 h2{
   font-size: 40px;
 }
@@ -117,5 +123,36 @@ nav{
   color: black;
   padding: 30px 40px;
   text-align: center;
-  border-radius: 50px; 
+  border-radius: 50px;
+}
+
+
+/* section 2 */
+.section-2 h2{
+  font-size: 35px;
+  color: rgb(151,146,228);
+}
+.section-2{
+  padding: 50px 0;
+  text-align: center;
+}
+.testimonial-1,
+.testimonial-2,
+.testimonial-3{
+  background-color: rgb(151,146,228);
+  padding: 30px 10px;
+  border-radius: 50px;
+  color: white;
+}
+.testimonial-1 span,
+.testimonial-2 span,
+.testimonial-3 span{
+  font-size: 20px;
+  font-weight: bold;
+}
+.box-img img{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
 }
