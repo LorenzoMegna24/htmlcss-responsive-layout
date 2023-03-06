@@ -8,9 +8,17 @@ body{
 }
 p{
   font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 2.3;
 }
 
 /* utility */
+.absolute{
+  position: absolute;
+}
+.relative{
+  position: relative;
+}
 .flex{
   display: flex;
 }
@@ -186,4 +194,42 @@ nav{
   padding-right: 30px;
   color: white;
   font-weight: 700;
+}
+
+/* section 4 */
+.section-4{
+  padding: 50px 0;
+}
+.section-4 h2{
+  font-size: 40px;
+  color: rgb(151,146,228);
+}
+.box-img-aboutus img{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.mark i{
+  color: rgb(151,146,228);
+  font-size: 60px;
+  top: 0;
+} 
+.mark{
+  top: 0;
+  left: 180px;
+  z-index: 3;
+}
+.box-img-aboutus h2{
+  color: rgb(151,146,228);
+  font-size: 40px;
+}
+.box-img-aboutus .btn-purple{
+  padding-left: 30px;
+  padding-right: 30px;
+  color: white;
+  font-weight: 700;
+}
+.box-img-aboutus .btn-purple i{
+  margin-right: 5px;
 }
