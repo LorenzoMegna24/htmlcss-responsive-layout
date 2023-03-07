@@ -79,6 +79,9 @@ nav{
   right: 0;
   z-index: 100;
 }
+nav .menu-links{
+  display: none;
+}
 .links{
   color: white;
   font-size: 25px;
@@ -303,7 +306,7 @@ footer p{
   line-height: 1.5;
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px){
+@media screen and (min-width: 768px){
   .col-80{
     margin: 0 auto;
     width: 90%;
@@ -353,10 +356,31 @@ footer p{
   }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 992px){
   .col-80{
     margin: 0 auto;
     width: 70%;
+  }
+  nav .links{
+    display: none; 
+  }
+  nav .menu-links{
+    display: block;
+  }
+  .menu-links a {
+    text-decoration: none;
+    color: white;
+  }
+  .menu-links ul li{
+    list-style-type: none;
+    margin-right: 25px;
+  }
+  ul .btn-white{
+    font-size: 15px;
+    padding: 8px 14px;
+  }
+  ul .btn-white a{
+    color: black;
   }
   .header-container{
     justify-content: space-between;
@@ -374,6 +398,18 @@ footer p{
     display: flex;
     justify-content: space-between;
   }
+  .section-1>div{
+    display: flex;
+    justify-content: space-between;
+  }
+  .planning-col-1{
+    flex-basis: 60%;
+    margin-right: 60px;
+  }
+  .card-white{
+    flex-basis: 40%;
+    align-self: flex-end;
+  }
   .get-demo{
     flex-basis: calc(100% / 2);
   }
@@ -381,5 +417,34 @@ footer p{
     flex-basis: calc(100% / 2);
     display: flex;
     align-items: end;
+  }
+  .testimonial-1,
+  .testimonial-2,
+  .testimonial-3{
+    flex-direction: row;
+  }
+  .box-img{
+    flex-basis: calc(100% / 2 );
+    margin-bottom: 0;
+  }
+  .testimonianza{
+    flex-basis: calc(100% / 2 );
+  }
+  .benefits-container{
+    justify-content: space-between;
+  }
+  .benefit-card{
+    flex-basis: calc(100% / 3 - 10px);
+  }
+  .section-4{
+    display: flex;
+    justify-content: space-between;
+  }
+  .about-us{
+    flex-basis: 60%;
+    margin-right: 10px;
+  }
+  .img-aboutus-container{
+    flex-basis: 40%;
   }
 }
